@@ -3,7 +3,11 @@
 ## プロジェクト概要
 
 - タスクボード（タスク管理）アプリ。
-- 技術構成・起動方法は、決まり次第ここに追記する。
+- 技術構成：React + Vite（JavaScript）。タスクはブラウザのローカルストレージ（キー `task-board.tasks`）に保存し、再読み込みしても残る。
+- 主なファイル：`src/App.jsx`（画面と動作）、`src/App.css`（見た目）。
+- 起動：`npm run dev` → 表示された `http://localhost:5173/task-board/` をブラウザで開く。
+- 整形：`npx prettier --write src`。ビルド確認：`npm run build`。
+- 公開：GitHub Pages（https://typer0999.github.io/task-board/）。`main` にプッシュすると `.github/workflows/deploy.yml` が自動でビルド・公開する。公開先のパスに合わせて `vite.config.js` の `base` を `/task-board/` にしている。
 
 ## コーディングルール
 
