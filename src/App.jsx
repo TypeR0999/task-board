@@ -57,7 +57,7 @@ function App() {
 
   return (
     <main className="board">
-      <h1>タスクボード</h1>
+      <h1>わたしのタスクボード</h1>
 
       <form className="add-form" onSubmit={addTask}>
         <input
