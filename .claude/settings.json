@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": ["Bash(git *)", "PowerShell(git *)"],
+    "deny": [
+      "Bash(rm *)",
+      "Bash(sudo *)",
+      "PowerShell(rm *)",
+      "PowerShell(del *)",
+      "PowerShell(Remove-Item *)",
+      "PowerShell(sudo *)",
+      "Bash(git push --force*)",
+      "Bash(git push -f*)",
+      "Bash(git push * --force*)",
+      "Bash(git push * -f*)",
+      "Bash(git reset --hard*)",
+      "PowerShell(git push --force*)",
+      "PowerShell(git push -f*)",
+      "PowerShell(git push * --force*)",
+      "PowerShell(git push * -f*)",
+      "PowerShell(git reset --hard*)"
+    ]
+  }
+}
